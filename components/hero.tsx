@@ -2,6 +2,7 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
 import {motion } from 'framer-motion'
+import { useTranslations } from "next-intl";
 
 const container = (delay:number) =>({
   hidden:{x:-100 , opacity:0},
@@ -9,6 +10,8 @@ const container = (delay:number) =>({
 })
 
 const Hero = () => {
+
+  const t = useTranslations("home-page")
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-3,5 ">
       <div className="flex flex-wrap">
@@ -26,20 +29,20 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             className="bg-gradient-to-r from-pink-300 via-slate-500  to-purple-500 bg-clip-text text-4xl tracking tight text-transparent">
-             Fullstack Developer
+             {t("developer")}
             </motion.span>
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
             className="my-2 max-w-xl py-6 font-light tracking-tighter">
-                {HERO_CONTENT} 
+                {t("hero-content")} 
                 {/* TODO: bURASI DEĞİŞCEK */}
             </motion.p>
         </div>
 <div className="px-20 py-3">
         <button className="bg-gradient-to-r from-pink-400 via-indigo-600 to-purple-600 text-white text-2xl font-semibold py-3 px-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-indigo-500">
-  Download CV
+  {t("button-text")}
 </button>     
 </div>
    </div>

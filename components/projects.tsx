@@ -1,12 +1,18 @@
 "use client"
 
 import React from 'react'
-import { PROJECTS } from '@/constants'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { FaGithub } from 'react-icons/fa'
+import { useTranslations } from 'next-intl'
+import { Project } from '../interfaces/projectInterface'
+
 
 const Projects = () => {
+  const t = useTranslations('home-page');
+  const projects: Project[] = t.raw("projects");
+
+
   return (
     <div className='border-b border-neutral-900 pb-4'>
 
@@ -14,10 +20,10 @@ const Projects = () => {
         whileInView={{opacity:1, y:0}}
         initial={{opacity:0, y:-100}}
         transition={{duration:1.5}}
-        className='my-20 text-center text-4xl'>Projects</motion.h2>
+        className='my-20 text-center text-4xl'>{t("projects-title")}</motion.h2>
 
         <div>
-            {PROJECTS.map((project, index) => (
+            {projects.map((project, index) => (
                 <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                     <motion.div
                     whileInView={{opacity:1, x:0}}

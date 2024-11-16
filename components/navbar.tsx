@@ -1,25 +1,40 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { FaLinkedin, FaGithub, FaTwitter, FaMedium } from "react-icons/fa";
 import { FaUpwork } from "react-icons/fa6";
+
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
   const [selectedLanguage, setSelectedLanguage] = useState({
     code: "TR",
     flag: "https://flagcdn.com/w40/tr.png",
     name: "Türkçe",
-    languageCode:"tr-TR"
+    route: "/tr",
   });
 
   const languages = [
-    { code: "EN", flag: "https://flagcdn.com/w40/us.png", name: "English" ,languageCode:"en-EN"},
-    { code: "TR", flag: "https://flagcdn.com/w40/tr.png", name: "Türkçe" , languageCode:"tr-TR" },
-    { code: "ES", flag: "https://flagcdn.com/w40/es.png", name: "Español" , languageCode:"es-ES"},
-    { code: "FR", flag: "https://flagcdn.com/w40/fr.png", name: "Français" , languageCode:"fr-FR"},
+    { code: "EN", flag: "https://flagcdn.com/w40/us.png", name: "English", route: "/en" },
+    { code: "TR", flag: "https://flagcdn.com/w40/tr.png", name: "Türkçe", route: "/tr" },
   ];
+
+  useEffect(() => {
+    // pathname'dan mevcut dilin kodunu almak
+    const currentLang = pathname.startsWith("/en") ? "EN" : "TR";
+    
+    // Mevcut dil ile selectedLanguage'ı güncellemek
+    const language = languages.find((lang) => lang.code === currentLang);
+    if (language) {
+      setSelectedLanguage(language);
+    }
+  }, [pathname]); // pathname değiştiğinde çalışır
 
   const handleLanguageSelect = (language: any) => {
     setSelectedLanguage(language);
+    router.push(language.route);
     setDropdownOpen(false);
   };
 
@@ -75,7 +90,7 @@ const Navbar = () => {
             <FaTwitter />
           </a>
           <a href="https://medium.com/@numandirican" target="_blank">
-            <FaMedium/>
+            <FaMedium />
           </a>
           <a
             href="https://www.upwork.com/freelancers/~01d0e8d045b4397ed0"
@@ -83,8 +98,6 @@ const Navbar = () => {
           >
             <FaUpwork />
           </a>
-
-        
         </div>
       </div>
     </nav>

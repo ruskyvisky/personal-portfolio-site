@@ -1,0 +1,63 @@
+
+{
+
+  "home-page": {
+      "developer": "Full-Stack Geliştirici",
+      "hero-content": "İlk \"Merhaba Dünya\" kodunu çalıştırdığımda duyduğum heyecanı hala hissediyorum. Her aşamada yaratıcılığı kullanarak zorlukları aşmayı ve yeni çözümler üretmeyi seviyorum. Projelerimde teknik mükemmelliğe ve görsel uyuma odaklanarak, her detayda kaliteli bir sonuç elde etmeyi hedefliyorum. Web sitemde projelerim ve hakkımda daha fazla bilgi bulabilir, ayrıca CV'mi inceleyerek daha fazla detay edinebilirsiniz.",
+      "button-text": "CV'yi İndir",
+      "github-button-text": "GitHub'da Görüntüle",
+      "about-first": "Ben",
+      "about-second": "Kimim?",
+      "techs-title": "Çalıştığım Teknolojiler",
+      "job-experience-title": "İş Deneyimleri",
+      "projects-title": "Projeler",
+      "about-text": "Trakya Üniversitesi'nden Yönetim Bilişim Sistemleri lisansı ile teknik uzmanlığımı iş süreçlerinin sağlam bir anlayışıyla birleştiriyorum. Spring Boot ve Next.js gibi çerçevelerdeki uzmanlığımın yanı sıra, güçlü iletişim kurma ve ekiplerle ve müşterilerle işbirliği yapma konusunda mükemmelim. Ölçeklenebilir ve güvenilir çözümler sunmama yardımcı olan DevOps araçlarını iyi anlarım. Serbest çalışma fırsatlarına açığım ve çeşitli endüstrilerdeki yenilikçi projelere katkıda bulunmaktan heyecan duyuyorum.",
+      "experiences": [
+        {
+          "year": "2023 Temmuz - 2023 Eylül",
+          "role": "Tam Zamanlı Frontend Geliştirici",
+          "company": "BulutMD Yazılım",
+          "description": "Next.js ve React kullanarak web uygulamaları için kullanıcı arayüzleri tasarladım ve geliştirdim. Frontend bileşenlerini Spring Boot API'leriyle entegre etmek için backend geliştiricilerle yakın çalıştım. Duyarlı tasarımlar uyguladım ve frontend performansını optimize ettim. CI/CD süreçlerini yöneterek dağıtımı hızlandırdım ve sürekli teslimatı sağladım. ERP uygulamasının geliştirilmesine katkıda bulundum, işlevselliğini ve ölçeklenebilirliğini artırdım.",
+          "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Material-UI"]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Marketa E-Ticaret Platformu",
+          "image": "/assets/projects/project-1.jpg",
+          "description": "Marketa, mikro hizmet mimarisi kullanarak çeşitli online pazar yerinin işlevselliğini göstermek için oluşturulmuş özellik zengin bir e-ticaret platformudur. Güçlü bir Spring Boot destekli backend ve güvenilir, ölçeklenebilir ve modüler bir hizmet sunmak için destekleyici teknoloji paketini kullanır.",
+          "technologies": ["Java", "MySQL", "PostgreSQL", "Apache Kafka", "Spring", "Keycloak", "Grafana", "Prometheus", "Docker", "Spring Cloud Gateway"],
+          "githubLink": "https://github.com/ruskyvisky/Marketa-Backend"
+        },
+        {
+          "title": "Fullstack Veteriner Klinik Yönetim Sistemi",
+          "image": "/assets/projects/project-5.png",
+          "description": "Bu proje veteriner klinikleri için kapsamlı bir yönetim sistemi sunar. Veterinerler stok seviyelerini yönetebilir, muhasebe görevlerini üstlenebilir ve diğer klinikle ilgili işlemleri, hayvan tedavilerini ve yeni hayvan kayıtlarını oluşturmayı içerir. Evcil hayvan sahipleri, evcil hayvanlarının sağlık ve tedavi ilerlemesini kolayca izlemek için sisteme giriş yapabilirler. Verimliliği artırmak amacıyla platform, hem veterinerler hem de evcil hayvan sahipleri için kullanıcı dostu bir deneyim sunar.",
+          "technologies": ["React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Redux", "Ant Design"],
+          "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
+        },
+        {
+          "title": "Portfolyo Web Sitesi",
+          "image": "/assets/projects/project-4.png",
+          "description": "Projelerimi ve becerilerimi sergileyen kişisel bir portfolyo web sitesi.",
+          "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+          "githubLink": ""
+        },
+        {
+          "title": "Netflix Klonu",
+          "image": "/assets/projects/project-3.png",
+          "description": "Bu proje, kullanıcı kaydı, giriş ve çerez tabanlı kimlik doğrulaması ile birlikte kullanıcıların GitHub ve Google aracılığıyla üçüncü taraf girişini destekleyen özellik zengin bir web uygulamasıdır. Kullanıcılar favori filmlerinin kişiselleştirilmiş listelerini oluşturabilirken, mobil uyumlu tasarım cihazlar arasında sorunsuz erişimi sağlar. Uygulama, görsel çekiciliği artıran Tailwind CSS kullanılarak güzel animasyonlu bileşenler sunar. Ayrıca, tam bir eğlence platformu sağlayan bir film akışı özelliği sunar.",
+          "technologies": ["HTML", "CSS", "React.js", "Next.js", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Prisma.js"],
+          "githubLink": "https://github.com/ruskyvisky/netflix-app"
+        },
+        {
+          "title": "Fullstack Etkinlik Yönetimi Web Uygulaması",
+          "image": "/assets/projects/project-2.jpg",
+          "description": "Bu tam yığın etkinlik yönetimi uygulaması, kullanıcıların kayıt olmasına, etkinlik oluşturmasına ve mevcut olanlara katılmasına olanak tanır. Etkinlik oluşturma ve katılımcı yönetimi için basit bir arayüz sunar ve kimlik doğrulama ve veri işleme işlemlerini güvenli bir şekilde ele alan güvenli backend hizmetlerine sahiptir. Proje, frontend ve backend teknolojilerinin sorunsuz entegrasyonunu sergiler.",
+          "technologies": ["HTML", "CSS", "React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Chakra-UI"],
+          "githubLink": "https://github.com/ruskyvisky/Event-Organizator-Frontend"
+        }
+      ]
+    }
+  }
+  

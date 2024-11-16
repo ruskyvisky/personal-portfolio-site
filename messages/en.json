@@ -1,0 +1,61 @@
+{
+    "home-page": {
+      "developer": "Full-Stack Developer",
+      "hero-content": "I’m a developer who still feels the excitement of running the first \"Hello World\" code. I thrive on solving challenges and bringing creativity to every stage of the software development process. I focus on both technical excellence and visual harmony in my projects. On my website, you can find more information about my projects and myself, and feel free to take a look at my CV for further details.",
+      "button-text": "Download CV",
+      "github-button-text": "View on GitHub",
+      "about-first": "About",
+      "about-second": "Me",
+      "techs-title": "Technologies",
+      "job-experience-title": "Job Experiences",
+      "projects-title": "Projects",
+      "about-text": "With a degree in Management Information Systems from Trakya University, I combine technical expertise with a solid understanding of business processes. In addition to my proficiency in frameworks like Spring Boot and Next.js, I excel in building strong communication with teams and clients, fostering collaboration and efficient problem-solving. I also have a good grasp of DevOps tools, which helps me deliver scalable and reliable solutions. I am open to freelance opportunities and eager to contribute to innovative projects across various industries.",
+      "experiences": [
+        {
+          "year": "July 2023 - September 2023",
+          "role": "Full-Time Frontend Developer",
+          "company": "BulutMD Software",
+          "description": "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Spring Boot APIs. Implemented responsive designs and optimized frontend performance. Managed CI/CD processes to streamline deployment and ensure continuous delivery. Contributed to the development of an ERP application, enhancing its functionality and scalability.",
+          "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Material-UI"]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Marketa E-Commerce Platform",
+          "image": "/assets/projects/project-1.jpg",
+          "description": "Marketa is a feature-rich e-commerce platform built to demonstrate various functionalities of an online marketplace using a microservices architecture. It uses a robust backend powered by Spring Boot and a suite of supporting technologies to provide a reliable, scalable, and modular service.",
+          "technologies": ["Java", "MySQL", "PostgreSQL", "Apache Kafka", "Spring", "Keycloak", "Grafana", "Prometheus", "Docker", "Spring Cloud Gateway"],
+          "githubLink": "https://github.com/ruskyvisky/Marketa-Backend"
+        },
+        {
+          "title": "Fullstack Veterinary Clinic Management System",
+          "image": "/assets/projects/project-5.png",
+          "description": "This project provides a comprehensive management system for veterinary clinics. Veterinarians can manage stock levels, handle accounting tasks, and perform other clinic-related operations, including animal treatments and creating new animal records. Pet owners can log in to track their pets' health and treatment progress. The platform offers a user-friendly experience for both veterinarians and pet owners, enhancing efficiency.",
+          "technologies": ["React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Redux", "Ant Design"],
+          "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
+        },
+        {
+          "title": "Portfolio Website",
+          "image": "/assets/projects/project-4.png",
+          "description": "A personal portfolio website showcasing my projects and skills.",
+          "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+          "githubLink": ""
+        },
+        {
+          "title": "Netflix Clone",
+          "image": "/assets/projects/project-3.png",
+          "description": "This project is a feature-rich web application supporting user registration, login, and cookie-based authentication, along with third-party login through GitHub and Google. Users can create personalized lists of favorite movies, while the mobile-friendly design ensures seamless access across devices. The application offers beautifully animated components using Tailwind CSS and a movie streaming feature for a complete entertainment platform.",
+          "technologies": ["HTML", "CSS", "React.js", "Next.js", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Prisma.js"],
+          "githubLink": "https://github.com/ruskyvisky/netflix-app"
+        },
+        {
+          "title": "Fullstack Event Management Web Application",
+          "image": "/assets/projects/project-2.jpg",
+          "description": "This full-stack event management application allows users to register, create events, and join existing ones. It offers a simple interface for event creation and participant management, backed by secure backend services that handle authentication and data processing securely. The project showcases seamless integration of frontend and backend technologies.",
+          "technologies": ["HTML", "CSS", "React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Chakra-UI"],
+          "githubLink": "https://github.com/ruskyvisky/Event-Organizator-Frontend"
+        }
+      ]
+    }
+  }
+  

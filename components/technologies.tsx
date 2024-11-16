@@ -7,6 +7,7 @@ import { SiMongodb } from "react-icons/si";
 import { motion } from "framer-motion";
 import { DiDocker, DiRedis } from "react-icons/di";
 import { SiPostgresql } from "react-icons/si";
+import { useTranslations } from "next-intl";
 const iconVariants = (duration: number) => ({
   initial: { y: -10 },
   animate: {
@@ -21,6 +22,8 @@ const iconVariants = (duration: number) => ({
 });
 
 const Technologies = () => {
+  
+  const t = useTranslations("home-page")
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h2
@@ -29,7 +32,7 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        Technologies
+        {t("techs-title")}
       </motion.h2>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
