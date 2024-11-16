@@ -20,41 +20,44 @@
         }
       ],
       "projects": [
-        {
-          "title": "Marketa E-Commerce Platform",
-          "image": "/assets/projects/project-1.jpg",
-          "description": "Marketa is a feature-rich e-commerce platform built to demonstrate various functionalities of an online marketplace using a microservices architecture. It uses a robust backend powered by Spring Boot and a suite of supporting technologies to provide a reliable, scalable, and modular service.",
-          "technologies": ["Java", "MySQL", "PostgreSQL", "Apache Kafka", "Spring", "Keycloak", "Grafana", "Prometheus", "Docker", "Spring Cloud Gateway"],
-          "githubLink": "https://github.com/ruskyvisky/Marketa-Backend"
-        },
-        {
-          "title": "Fullstack Veterinary Clinic Management System",
-          "image": "/assets/projects/project-5.png",
-          "description": "This project provides a comprehensive management system for veterinary clinics. Veterinarians can manage stock levels, handle accounting tasks, and perform other clinic-related operations, including animal treatments and creating new animal records. Pet owners can log in to track their pets' health and treatment progress. The platform offers a user-friendly experience for both veterinarians and pet owners, enhancing efficiency.",
-          "technologies": ["React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Redux", "Ant Design"],
-          "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
-        },
-        {
-          "title": "Portfolio Website",
-          "image": "/assets/projects/project-4.png",
-          "description": "A personal portfolio website showcasing my projects and skills.",
-          "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-          "githubLink": ""
-        },
-        {
-          "title": "Netflix Clone",
-          "image": "/assets/projects/project-3.png",
-          "description": "This project is a feature-rich web application supporting user registration, login, and cookie-based authentication, along with third-party login through GitHub and Google. Users can create personalized lists of favorite movies, while the mobile-friendly design ensures seamless access across devices. The application offers beautifully animated components using Tailwind CSS and a movie streaming feature for a complete entertainment platform.",
-          "technologies": ["HTML", "CSS", "React.js", "Next.js", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Prisma.js"],
-          "githubLink": "https://github.com/ruskyvisky/netflix-app"
-        },
-        {
-          "title": "Fullstack Event Management Web Application",
-          "image": "/assets/projects/project-2.jpg",
-          "description": "This full-stack event management application allows users to register, create events, and join existing ones. It offers a simple interface for event creation and participant management, backed by secure backend services that handle authentication and data processing securely. The project showcases seamless integration of frontend and backend technologies.",
-          "technologies": ["HTML", "CSS", "React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Chakra-UI"],
-          "githubLink": "https://github.com/ruskyvisky/Event-Organizator-Frontend"
-        }
+        
+          {
+            "title": "Marketa E-Commerce Platform",
+            "image": "/assets/projects/project-1.jpg",
+            "description": "Marketa is an e-commerce project I developed using a microservices architecture. In this project, I aimed to utilize microservices in a detailed and efficient manner. It allowed me to understand the requirements of a comprehensive e-commerce system and anticipate potential future challenges.",
+            "technologies": ["Java", "MySQL", "PostgreSQL", "Apache Kafka", "Spring", "Keycloak", "Grafana", "Prometheus", "Docker", "Spring Cloud Gateway"],
+            "githubLink": "https://github.com/ruskyvisky/Marketa-Backend"
+          },
+          {
+            "title": "Fullstack Veterinary Clinic Management System",
+            "image": "/assets/projects/project-5.png",
+            "description": "The comprehensive management system I developed for veterinary clinics provided me with valuable experience in creating software tailored to an organization's needs. This project optimized processes such as inventory management, accounting tasks, animal treatment records, and new animal registrations for veterinarians. Additionally, I designed a user-friendly experience enabling pet owners to easily track their pets' health and treatment progress through the system. With this project, I aimed to enhance both functionality and user experience, ultimately improving the operational efficiency of a real-world organization.",
+            "technologies": ["React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Redux", "Ant Design"],
+            "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
+          },
+          {
+            "title": "Portfolio Website",
+            "image": "/assets/projects/project-4.png",
+            "description": "A portfolio website designed to showcase my projects and skills. This project was created to build my personal brand and effectively communicate with potential employers.",
+            "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+            "githubLink": "https://github.com/ruskyvisky/personal-portfolio-site"
+          },
+          {
+            "title": "Netflix Clone",
+            "image": "/assets/projects/project-3.png",
+            "description": "The Netflix clone project I developed is a feature-rich web application that allows users to save their favorite movies in personalized lists and access them seamlessly across devices. The project includes user registration, login, and cookie-based authentication processes; it also integrates third-party login features via Google and GitHub. To enhance visual appeal, I used Tailwind CSS to design modern, animated components and ensured a mobile-responsive layout. With the addition of a streaming feature, the platform offers a complete entertainment experience. This project provided me with the opportunity to experiment with new technologies, giving me confidence in utilizing them effectively in future projects.",
+            "technologies": ["HTML", "CSS", "React.js", "Next.js", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Prisma.js"],
+            "githubLink": "https://github.com/ruskyvisky/netflix-app"
+          },
+          {
+            "title": "Fullstack Event Management Web Application",
+            "image": "/assets/projects/project-2.jpg",
+            "description": "The event management application I developed is a comprehensive platform that allows users to register, create events, and join existing ones. I designed a user-friendly interface for event creation and participant management. On the backend, I ensured secure handling of authentication and data processing to protect user information. By seamlessly integrating frontend and backend technologies, I built a robust and reliable system. This project was focused on demonstrating my technical expertise while serving as an impressive addition to my portfolio.",
+            "technologies": ["HTML", "CSS", "React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Chakra-UI"],
+            "githubLink": "https://github.com/ruskyvisky/Event-Organizator-Frontend"
+          }
+        
+        
       ]
     }
   }

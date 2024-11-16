@@ -3,7 +3,7 @@
 
   "home-page": {
       "developer": "Full-Stack Geliştirici",
-      "hero-content": "İlk \"Merhaba Dünya\" kodunu çalıştırdığımda duyduğum heyecanı hala hissediyorum. Her aşamada yaratıcılığı kullanarak zorlukları aşmayı ve yeni çözümler üretmeyi seviyorum. Projelerimde teknik mükemmelliğe ve görsel uyuma odaklanarak, her detayda kaliteli bir sonuç elde etmeyi hedefliyorum. Web sitemde projelerim ve hakkımda daha fazla bilgi bulabilir, ayrıca CV'mi inceleyerek daha fazla detay edinebilirsiniz.",
+      "hero-content": "Kodlama dünyasına adım attığım ilk gün duyduğum heyecan, yıllar içinde hiç azalmadan büyümeye devam ediyor. Zorlukların üstesinden yaratıcı çözümlerle gelmek, beni bu alanda motive eden en önemli unsurlardan biri. Projelerimde hem teknik mükemmeliyet hem de görsel uyum önceliklerim arasında yer alıyor; her detayı titizlikle ele alarak kaliteli ve etkileyici sonuçlar ortaya koymayı hedefliyorum. Web sitemde projelerim ve hakkımda daha fazla bilgiye ulaşabilir, CV'mi inceleyerek profesyonel deneyimlerim hakkında detaylı bilgi edinebilirsiniz.",
       "button-text": "CV'yi İndir",
       "github-button-text": "GitHub'da Görüntüle",
       "about-first": "Ben",
@@ -11,7 +11,7 @@
       "techs-title": "Çalıştığım Teknolojiler",
       "job-experience-title": "İş Deneyimleri",
       "projects-title": "Projeler",
-      "about-text": "Trakya Üniversitesi'nden Yönetim Bilişim Sistemleri lisansı ile teknik uzmanlığımı iş süreçlerinin sağlam bir anlayışıyla birleştiriyorum. Spring Boot ve Next.js gibi çerçevelerdeki uzmanlığımın yanı sıra, güçlü iletişim kurma ve ekiplerle ve müşterilerle işbirliği yapma konusunda mükemmelim. Ölçeklenebilir ve güvenilir çözümler sunmama yardımcı olan DevOps araçlarını iyi anlarım. Serbest çalışma fırsatlarına açığım ve çeşitli endüstrilerdeki yenilikçi projelere katkıda bulunmaktan heyecan duyuyorum.",
+      "about-text": "Spring Boot ve Next.js gibi güçlü framework’lerde uzmanlık sahibiyim ve modern yazılım geliştirme süreçlerinde bilgi birikimime güveniyorum. Ayrıca, ölçeklenebilir ve güvenilir sistemler tasarlamak için CI/CD, konteynerleştirme, ve bulut platformları gibi DevOps araçlarını projelerimde uyguluyorum. Ekiplerle ve müşterilerle etkili iletişim kurarak işbirliğini güçlendirme ve projelerin her aşamasında karşılıklı katkı sağlama konusunda tecrübeliyim. Freelance çalışma fırsatlarına açığım ve yenilikçi projelerde teknik uzmanlığımı kullanarak değer yaratmayı hedefliyorum.",
       "experiences": [
         {
           "year": "2023 Temmuz - 2023 Eylül",
@@ -25,35 +25,35 @@
         {
           "title": "Marketa E-Ticaret Platformu",
           "image": "/assets/projects/project-1.jpg",
-          "description": "Marketa, mikro hizmet mimarisi kullanarak çeşitli online pazar yerinin işlevselliğini göstermek için oluşturulmuş özellik zengin bir e-ticaret platformudur. Güçlü bir Spring Boot destekli backend ve güvenilir, ölçeklenebilir ve modüler bir hizmet sunmak için destekleyici teknoloji paketini kullanır.",
+          "description": "Marketa, mikroservis mimarisi geliştirdiğim bir E-ticaret projesidir. Bu projede mikroservis mimarisini detaylı ve etkin bir şekilde kullanmayı amaçladım. Genel hatlarıyla bir e-ticaret sisteminin gerekliliklerini ve gelecekte yaşanabilecek problemleri öngörebilmemi sağladı.",
           "technologies": ["Java", "MySQL", "PostgreSQL", "Apache Kafka", "Spring", "Keycloak", "Grafana", "Prometheus", "Docker", "Spring Cloud Gateway"],
           "githubLink": "https://github.com/ruskyvisky/Marketa-Backend"
         },
         {
           "title": "Fullstack Veteriner Klinik Yönetim Sistemi",
           "image": "/assets/projects/project-5.png",
-          "description": "Bu proje veteriner klinikleri için kapsamlı bir yönetim sistemi sunar. Veterinerler stok seviyelerini yönetebilir, muhasebe görevlerini üstlenebilir ve diğer klinikle ilgili işlemleri, hayvan tedavilerini ve yeni hayvan kayıtlarını oluşturmayı içerir. Evcil hayvan sahipleri, evcil hayvanlarının sağlık ve tedavi ilerlemesini kolayca izlemek için sisteme giriş yapabilirler. Verimliliği artırmak amacıyla platform, hem veterinerler hem de evcil hayvan sahipleri için kullanıcı dostu bir deneyim sunar.",
+          "description": "Veteriner klinikleri için geliştirdiğim kapsamlı yönetim sistemi projesi, bir kurumun ihtiyaçlarına göre yazılım geliştirme konusunda bana önemli bir deneyim kazandırdı. Bu proje kapsamında veterinerlerin stok yönetimi, muhasebe işlemleri, hayvan tedavi kayıtları ve yeni hayvan kayıtlarının oluşturulması gibi süreçlerini optimize etmelerine yardımcı oldum. Ayrıca, evcil hayvan sahiplerinin sistem üzerinden evcil hayvanlarının sağlık ve tedavi ilerlemesini kolayca takip edebilmelerini sağlayarak her iki taraf için kullanıcı dostu bir deneyim tasarladım. Bu projeyle, işlevselliği ve kullanıcı deneyimini bir arada sunarak, gerçek dünyadaki bir kurumun operasyonel verimliliğini artırmayı hedefledim.",
           "technologies": ["React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Redux", "Ant Design"],
           "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
         },
         {
           "title": "Portfolyo Web Sitesi",
           "image": "/assets/projects/project-4.png",
-          "description": "Projelerimi ve becerilerimi sergileyen kişisel bir portfolyo web sitesi.",
+          "description": "Projelerimi ve yetkinliklerimi sergilediğim bir portfolyo sitesi. Bu proje, kişisel markamı oluşturmak ve işverenlerle etkili bir şekilde iletişim kurmak için tasarlandı.",
           "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-          "githubLink": ""
+          "githubLink": "https://github.com/ruskyvisky/personal-portfolio-site"
         },
         {
           "title": "Netflix Klonu",
           "image": "/assets/projects/project-3.png",
-          "description": "Bu proje, kullanıcı kaydı, giriş ve çerez tabanlı kimlik doğrulaması ile birlikte kullanıcıların GitHub ve Google aracılığıyla üçüncü taraf girişini destekleyen özellik zengin bir web uygulamasıdır. Kullanıcılar favori filmlerinin kişiselleştirilmiş listelerini oluşturabilirken, mobil uyumlu tasarım cihazlar arasında sorunsuz erişimi sağlar. Uygulama, görsel çekiciliği artıran Tailwind CSS kullanılarak güzel animasyonlu bileşenler sunar. Ayrıca, tam bir eğlence platformu sağlayan bir film akışı özelliği sunar.",
+          "description": "Geliştirdiğim Netflix klon projesi, kullanıcıların favori filmlerini kişiselleştirilmiş listelerde saklayabildiği, cihazlar arasında sorunsuz erişim sağlayan zengin özelliklere sahip bir web uygulamasıdır. Proje kapsamında kullanıcı kaydı, giriş ve çerez tabanlı kimlik doğrulama süreçlerini entegre ettim; ayrıca Google ve GitHub ile üçüncü taraf giriş özelliklerini ekledim. Görsel çekicilik için Tailwind CSS ile modern, animasyonlu bileşenler tasarladım ve mobil uyumlu bir yapı oluşturdum. Film akışı özelliğiyle tam bir eğlence platformu sunarak kullanıcı deneyimini zenginleştirdim. Bu projede yeni teknolojileri deneyimleme fırsatı bulmam, gelecekte bu araçları farklı projelerde etkin bir şekilde kullanabileceğim konusunda bana önemli bir tecrübe kazandırdı.",
           "technologies": ["HTML", "CSS", "React.js", "Next.js", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Prisma.js"],
           "githubLink": "https://github.com/ruskyvisky/netflix-app"
         },
         {
           "title": "Fullstack Etkinlik Yönetimi Web Uygulaması",
           "image": "/assets/projects/project-2.jpg",
-          "description": "Bu tam yığın etkinlik yönetimi uygulaması, kullanıcıların kayıt olmasına, etkinlik oluşturmasına ve mevcut olanlara katılmasına olanak tanır. Etkinlik oluşturma ve katılımcı yönetimi için basit bir arayüz sunar ve kimlik doğrulama ve veri işleme işlemlerini güvenli bir şekilde ele alan güvenli backend hizmetlerine sahiptir. Proje, frontend ve backend teknolojilerinin sorunsuz entegrasyonunu sergiler.",
+          "description": "Geliştirdiğim  etkinlik yönetimi uygulaması, kullanıcıların kayıt olmasını, etkinlik oluşturmasını ve mevcut etkinliklere katılmasını sağlayan kapsamlı bir platformdur. Etkinlik oluşturma ve katılımcı yönetimi için kullanıcı dostu ve basit bir arayüz tasarladım. Uygulamanın backend tarafında, kimlik doğrulama ve veri işleme süreçlerini güvenli bir şekilde ele alarak, kullanıcı bilgilerinin korunmasını sağladım. Frontend ve backend teknolojilerini sorunsuz bir şekilde entegre ederek güçlü ve güvenilir bir sistem oluşturdum. Bu projede, hem teknik uzmanlığımı sergileyen hem de portföyüm için etkileyici bir örnek teşkil eden bir çözüm geliştirmeye odaklandım.",
           "technologies": ["HTML", "CSS", "React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Chakra-UI"],
           "githubLink": "https://github.com/ruskyvisky/Event-Organizator-Frontend"
         }
