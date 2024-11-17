@@ -1,64 +1,60 @@
 {
-    "home-page": {
-      "developer": "Full-Stack Developer",
-      "hero-content": "I’m a developer who still feels the excitement of running the first \"Hello World\" code. I thrive on solving challenges and bringing creativity to every stage of the software development process. I focus on both technical excellence and visual harmony in my projects. On my website, you can find more information about my projects and myself, and feel free to take a look at my CV for further details.",
-      "button-text": "Download CV",
-      "github-button-text": "View on GitHub",
-      "about-first": "About",
-      "about-second": "Me",
-      "techs-title": "Technologies",
-      "job-experience-title": "Job Experiences",
-      "projects-title": "Projects",
-      "about-text": "With a degree in Management Information Systems from Trakya University, I combine technical expertise with a solid understanding of business processes. In addition to my proficiency in frameworks like Spring Boot and Next.js, I excel in building strong communication with teams and clients, fostering collaboration and efficient problem-solving. I also have a good grasp of DevOps tools, which helps me deliver scalable and reliable solutions. I am open to freelance opportunities and eager to contribute to innovative projects across various industries.",
-      "experiences": [
-        {
-          "year": "July 2023 - September 2023",
-          "role": "Full-Time Frontend Developer",
-          "company": "BulutMD Software",
-          "description": "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Spring Boot APIs. Implemented responsive designs and optimized frontend performance. Managed CI/CD processes to streamline deployment and ensure continuous delivery. Contributed to the development of an ERP application, enhancing its functionality and scalability.",
-          "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Material-UI"]
-        }
-      ],
-      "projects": [
-        
-          {
-            "title": "Marketa E-Commerce Platform",
-            "image": "/assets/projects/project-1.jpg",
-            "description": "Marketa is an e-commerce project I developed using a microservices architecture. In this project, I aimed to utilize microservices in a detailed and efficient manner. It allowed me to understand the requirements of a comprehensive e-commerce system and anticipate potential future challenges.",
-            "technologies": ["Java", "MySQL", "PostgreSQL", "Apache Kafka", "Spring", "Keycloak", "Grafana", "Prometheus", "Docker", "Spring Cloud Gateway"],
-            "githubLink": "https://github.com/ruskyvisky/Marketa-Backend"
-          },
-          {
-            "title": "Fullstack Veterinary Clinic Management System",
-            "image": "/assets/projects/project-5.png",
-            "description": "The comprehensive management system I developed for veterinary clinics provided me with valuable experience in creating software tailored to an organization's needs. This project optimized processes such as inventory management, accounting tasks, animal treatment records, and new animal registrations for veterinarians. Additionally, I designed a user-friendly experience enabling pet owners to easily track their pets' health and treatment progress through the system. With this project, I aimed to enhance both functionality and user experience, ultimately improving the operational efficiency of a real-world organization.",
-            "technologies": ["React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Redux", "Ant Design"],
-            "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
-          },
-          {
-            "title": "Portfolio Website",
-            "image": "/assets/projects/project-4.png",
-            "description": "A portfolio website designed to showcase my projects and skills. This project was created to build my personal brand and effectively communicate with potential employers.",
-            "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-            "githubLink": "https://github.com/ruskyvisky/personal-portfolio-site"
-          },
-          {
-            "title": "Netflix Clone",
-            "image": "/assets/projects/project-3.png",
-            "description": "The Netflix clone project I developed is a feature-rich web application that allows users to save their favorite movies in personalized lists and access them seamlessly across devices. The project includes user registration, login, and cookie-based authentication processes; it also integrates third-party login features via Google and GitHub. To enhance visual appeal, I used Tailwind CSS to design modern, animated components and ensured a mobile-responsive layout. With the addition of a streaming feature, the platform offers a complete entertainment experience. This project provided me with the opportunity to experiment with new technologies, giving me confidence in utilizing them effectively in future projects.",
-            "technologies": ["HTML", "CSS", "React.js", "Next.js", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Prisma.js"],
-            "githubLink": "https://github.com/ruskyvisky/netflix-app"
-          },
-          {
-            "title": "Fullstack Event Management Web Application",
-            "image": "/assets/projects/project-2.jpg",
-            "description": "The event management application I developed is a comprehensive platform that allows users to register, create events, and join existing ones. I designed a user-friendly interface for event creation and participant management. On the backend, I ensured secure handling of authentication and data processing to protect user information. By seamlessly integrating frontend and backend technologies, I built a robust and reliable system. This project was focused on demonstrating my technical expertise while serving as an impressive addition to my portfolio.",
-            "technologies": ["HTML", "CSS", "React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Chakra-UI"],
-            "githubLink": "https://github.com/ruskyvisky/Event-Organizator-Frontend"
-          }
-        
-        
-      ]
-    }
+  "home-page": {
+    "developer": "Full-Stack Developer",
+    "hero-content": "The excitement I felt on my first day stepping into the world of coding has only grown stronger over the years. Overcoming challenges with creative solutions is one of the key factors that motivates me in this field. In my projects, I prioritize both technical excellence and visual harmony, aiming to deliver high-quality and impressive results by meticulously addressing every detail. On my website, you can explore my projects, learn more about me, and review my CV for detailed information about my professional experiences.",
+    "button-text": "Download CV",
+    "github-button-text": "View on GitHub",
+    "about-first": "Who",
+    "about-second": "Am I?",
+    "techs-title": "Technologies I Work With",
+    "job-experience-title": "Job Experiences",
+    "projects-title": "Projects",
+    "about-text": "I specialize in powerful frameworks such as Spring Boot and Next.js, and I rely on my expertise in modern software development processes. Additionally, I apply DevOps tools like CI/CD, containerization, and cloud platforms in my projects to design scalable and reliable systems. I am experienced in enhancing collaboration by effectively communicating with teams and clients, contributing at every stage of the projects. I am open to freelance opportunities and aim to create value by leveraging my technical expertise in innovative projects.",
+    "experiences": [
+      {
+        "year": "July 2023 - September 2023",
+        "role": "Full-Time Frontend Developer",
+        "company": "BulutMD Software",
+        "description": "Designed and developed user interfaces for web applications using Next.js and React. Collaborated closely with backend developers to integrate frontend components with Spring Boot APIs. Implemented responsive designs and optimized frontend performance. Managed CI/CD processes to accelerate deployment and ensure continuous delivery. Contributed to the development of an ERP application, enhancing its functionality and scalability.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Material-UI"]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Marketa E-Commerce Platform",
+        "image": "/assets/projects/project-1.jpg",
+        "description": "Marketa is an e-commerce project where I implemented a microservices architecture. The project provided me with in-depth experience in utilizing microservices effectively, helping me anticipate potential challenges of an e-commerce system.",
+        "technologies": ["Java", "MySQL", "PostgreSQL", "Apache Kafka", "Spring", "Keycloak", "Grafana", "Prometheus", "Docker", "Spring Cloud Gateway"],
+        "githubLink": "https://github.com/ruskyvisky/Marketa-Backend"
+      },
+      {
+        "title": "Fullstack Veterinary Clinic Management System",
+        "image": "/assets/projects/project-5.png",
+        "description": "This comprehensive management system for veterinary clinics provided significant experience in developing software tailored to an organization’s needs. The project helped optimize processes such as stock management, accounting, animal treatment records, and new animal registrations for veterinarians. Additionally, it enabled pet owners to easily track their pets' health and treatment progress via the system, offering a user-friendly experience for both sides. By combining functionality with user experience, I aimed to enhance the operational efficiency of a real-world organization.",
+        "technologies": ["React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Redux", "Ant Design"],
+        "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
+      },
+      {
+        "title": "Portfolio Website",
+        "image": "/assets/projects/project-4.png",
+        "description": "A portfolio site designed to showcase my projects and skills. This project was created to build my personal brand and effectively communicate with potential employers.",
+        "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+        "githubLink": "https://github.com/ruskyvisky/personal-portfolio-site"
+      },
+      {
+        "title": "Netflix Clone",
+        "image": "/assets/projects/project-3.png",
+        "description": "This Netflix clone project is a feature-rich web application that allows users to save their favorite movies in personalized lists and access them seamlessly across devices. The project includes user registration, login, and cookie-based authentication processes, along with third-party login options via Google and GitHub. I designed modern, animated components using Tailwind CSS to enhance visual appeal and ensure mobile responsiveness. With the movie streaming feature, it offers a complete entertainment platform, enriching the user experience. This project provided me with valuable experience in exploring new technologies, preparing me to effectively use them in future projects.",
+        "technologies": ["HTML", "CSS", "React.js", "Next.js", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Prisma.js"],
+        "githubLink": "https://github.com/ruskyvisky/netflix-app"
+      },
+      {
+        "title": "Fullstack Event Management Web Application",
+        "image": "/assets/projects/project-2.jpg",
+        "description": "This event management application allows users to register, create events, and participate in existing ones through a comprehensive platform. I designed a user-friendly interface for event creation and participant management. On the backend, I securely handled authentication and data processing to protect user information. By seamlessly integrating frontend and backend technologies, I built a robust and reliable system. This project showcases my technical expertise and serves as an impressive example for my portfolio.",
+        "technologies": ["HTML", "CSS", "React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Chakra-UI"],
+        "githubLink": "https://github.com/ruskyvisky/Event-Organizator-Frontend"
+      }
+    ]
   }
-  
+}
