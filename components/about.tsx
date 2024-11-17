@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import { ABOUT_TEXT } from "@/constants";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 const About = () => {

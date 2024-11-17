@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
 import { RiReactjsFill } from "react-icons/ri";
-import { SiAmazons3, SiApachekafka, SiAwsamplify, SiDocker, SiGrafana, SiMysql, SiNextdotjs, SiPrisma, SiSpringsecurity, SiTailwindcss } from "react-icons/si";
+import { SiAmazons3, SiApachekafka,  SiDocker, SiGrafana, SiMysql, SiNextdotjs, SiPrisma,  SiTailwindcss } from "react-icons/si";
 import { SiSpringboot } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { motion } from "framer-motion";
-import { DiDocker, DiRedis } from "react-icons/di";
+import { DiRedis } from "react-icons/di";
 import { SiPostgresql } from "react-icons/si";
 import { useTranslations } from "next-intl";
 const iconVariants = (duration: number) => ({

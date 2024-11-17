@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import { FaLinkedin, FaGithub, FaTwitter, FaMedium } from "react-icons/fa";
 import { FaUpwork } from "react-icons/fa6";
-
+import { Language } from "../interfaces/languageInterface";
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const router = useRouter();
@@ -32,7 +32,7 @@ const Navbar = () => {
     }
   }, [pathname]); // pathname değiştiğinde çalışır
 
-  const handleLanguageSelect = (language: any) => {
+  const handleLanguageSelect = (language: Language) => {
     setSelectedLanguage(language);
     router.push(language.route);
     setDropdownOpen(false);

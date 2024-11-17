@@ -52,7 +52,7 @@ const Projects = () => {
                           rel='noopener noreferrer' 
                           className='mt-4 inline-flex items-center rounded border border-purple-600 bg-neutral-900 px-4 py-2 text-sm font-medium text-purple-600 hover:bg-purple-600 hover:text-white'
                         >
-                          <FaGithub className='mr-2' /> View on GitHub
+                          <FaGithub className='mr-2' size={22}  /> {t("github-button-text")}
                         </a>
                     </motion.div>
                 </div>

@@ -1,6 +1,5 @@
 "use client"
 import React from "react";
-import { HERO_CONTENT } from "../constants";
 import {motion } from 'framer-motion'
 import { useTranslations } from "next-intl";
 
@@ -37,14 +36,24 @@ const Hero = () => {
               animate="visible"
             className="my-2 max-w-xl py-6 font-light tracking-tighter">
                 {t("hero-content")} 
-                {/* TODO: bURASI DEĞİŞCEK */}
             </motion.p>
         </div>
-<div className="px-20 py-3">
-        <button className="bg-gradient-to-r from-pink-400 via-indigo-600 to-purple-600 text-white text-2xl font-semibold py-3 px-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-indigo-500">
+<motion.div variants={container(1.5)}
+              initial="hidden"
+              animate="visible" className="px-20 py-3">
+        <button
+  className="bg-gradient-to-r from-pink-400 via-indigo-600 to-purple-600 text-white text-2xl font-semibold py-3 px-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+  onClick={() => {
+    const link = document.createElement('a');
+    link.href = '/Numan Dirican CV.pdf'; // PDF dosyasının yolu
+    link.download = 'Numan Dirican CV.pdf'; // İndirilen dosyanın adı
+    link.click();
+  }}
+>
   {t("button-text")}
-</button>     
-</div>
+</button>
+
+</motion.div>
    </div>
         <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex  justify-center">
