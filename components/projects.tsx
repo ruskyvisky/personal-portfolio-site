@@ -47,7 +47,7 @@ const Projects = () => {
                           ))}
                         </div>
                         <a 
-                          href={"project.githubLink"} 
+                          href={project.githubLink} 
                           target='_blank' 
                           rel='noopener noreferrer' 
                           className='mt-4 inline-flex items-center rounded border border-purple-600 bg-neutral-900 px-4 py-2 text-sm font-medium text-purple-600 hover:bg-purple-600 hover:text-white'
