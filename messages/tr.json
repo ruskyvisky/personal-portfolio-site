@@ -11,7 +11,7 @@
       "techs-title": "Çalıştığım Teknolojiler",
       "job-experience-title": "İş Deneyimleri",
       "projects-title": "Projeler",
-      "about-text": "Spring Boot ve Next.js gibi güçlü framework’lerde uzmanlık sahibiyim ve modern yazılım geliştirme süreçlerinde bilgi birikimime güveniyorum. Ayrıca ölçeklenebilir ve güvenilir sistemler tasarlamak için CI/CD, konteynerleştirme, ve bulut platformları gibi DevOps araçlarını projelerimde uyguluyorum. Ekiplerle ve müşterilerle etkili iletişim kurarak işbirliğini güçlendirme ve projelerin her aşamasında karşılıklı katkı sağlama konusunda tecrübeliyim. Freelance çalışma fırsatlarına açığım ve yenilikçi projelerde teknik uzmanlığımı kullanarak değer yaratmayı hedefliyorum.",
+      "about-text": "Node.js ve Next.js gibi güçlü framework’lerde uzmanlık sahibiyim ve modern yazılım geliştirme süreçlerinde derin bir bilgi birikimine sahibim. Ölçeklenebilir, güvenilir ve yüksek performanslı sistemler tasarlamak için konteynerleştirme, CI/CD ve bulut teknolojileri gibi DevOps araçlarını etkin bir şekilde kullanıyorum. Ekiplerle ve müşterilerle güçlü iletişim kurarak işbirliğini artırma, teknik gereksinimleri doğru anlama ve projelerin her aşamasına değer katma konusunda deneyimliyim. Amacım, teknolojiyi stratejik bir şekilde kullanarak yenilikçi ve sürdürülebilir çözümler geliştirmektir.",
       "experiences": [
         {
           "year": "2023 Temmuz - 2023 Eylül",
@@ -19,6 +19,14 @@
           "company": "BulutMD Yazılım",
           "description": "Next.js ve React kullanarak web uygulamaları için kullanıcı arayüzleri tasarladım ve geliştirdim. Frontend bileşenlerini Spring Boot API'leriyle entegre etmek için backend geliştiricilerle yakın çalıştım. Duyarlı tasarımlar uyguladım ve frontend performansını optimize ettim. CI/CD süreçlerini yöneterek dağıtımı hızlandırdım ve sürekli teslimatı sağladım. ERP uygulamasının geliştirilmesine katkıda bulundum, işlevselliğini ve ölçeklenebilirliğini artırdım.",
           "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Material-UI"]
+        },
+         {
+          "year": "2025 Temmuz - 2025 Ağustos",
+          "role": "Yaz Stajyeri",
+          "company": "Orca İş Çözümleri",
+"description": "Müşteri sunucularını izleyen ve belirli önemli senaryoları (örneğin yedekleme işlemleri ve log dosya boyutu takibi) otomatik olarak uygulayan bir sistem geliştirdim. Projeyi full-stack olarak tasarladım ve geliştirdim. Backend tarafında API’leri Node.js ve Express.js ile oluşturdum, frontend tarafında ise Next.js ile kullanıcı arayüzünü geliştirdim. Veritabanı olarak PostgreSQL kullandım ve Docker ile container tabanlı bir mimari kurarak uygulamanın taşınabilirliğini ve yönetilebilirliğini artırdım. RabbitMQ ile sistem içi iletişimi yönettim ve yüksek performanslı veri akışı sağladım.",
+"technologies": ["Node.js", "Express.js", "JavaScript", "Next.js", "Docker", "PostgreSQL", "RabbitMQ"]
+
         }
       ],
       "projects": [
@@ -37,11 +45,11 @@
           "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
         },
         {
-          "title": "Portfolyo Web Sitesi",
+          "title": "Orca Watch Tower",
           "image": "/assets/projects/project-4.png",
-          "description": "Projelerimi ve yetkinliklerimi sergilediğim bir portfolyo sitesi. Bu proje, kişisel markamı oluşturmak ve işverenlerle etkili bir şekilde iletişim kurmak için tasarlandı.",
-          "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-          "githubLink": "https://github.com/ruskyvisky/personal-portfolio-site"
+          "description": "Orca Watch Tower, müşteri sunucularını izleyen ve belirli önemli senaryoları (örneğin yedekleme işlemleri ve log dosya boyutu takibi) otomatik olarak uygulayan bir sistemdir. Projeyi full-stack olarak tasarladım ve geliştirdim. Backend tarafında API’leri Node.js ve Express.js ile oluşturdum, frontend tarafında ise Next.js ile kullanıcı arayüzünü geliştirdim. Veritabanı olarak PostgreSQL kullandım ve Docker ile container tabanlı bir mimari kurarak uygulamanın taşınabilirliğini ve yönetilebilirliğini artırdım. RabbitMQ ile sistem içi iletişimi yönettim ve yüksek performanslı veri akışı sağladım.",
+          "technologies": ["Node.js", "Next.js", "Tailwind CSS", "Express.js" , "Docker", "PostgreSQL", "RabbitMQ"],
+          "githubLink": "https://github.com/ruskyvisky/system-monitoring-app"
         },
         {
           "title": "Netflix Klonu",
@@ -57,6 +65,7 @@
           "technologies": ["HTML", "CSS", "React", "Next.js", "Java", "Spring Boot", "Spring Security", "MySQL", "Chakra-UI"],
           "githubLink": "https://github.com/ruskyvisky/Event-Organizator-Frontend"
         }
+
       ]
     }
   }

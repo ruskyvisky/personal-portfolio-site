@@ -9,7 +9,7 @@
     "techs-title": "Technologies I Work With",
     "job-experience-title": "Job Experiences",
     "projects-title": "Projects",
-    "about-text": "I specialize in powerful frameworks such as Spring Boot and Next.js, and I rely on my expertise in modern software development processes. Additionally, I apply DevOps tools like CI/CD, containerization, and cloud platforms in my projects to design scalable and reliable systems. I am experienced in enhancing collaboration by effectively communicating with teams and clients, contributing at every stage of the projects. I am open to freelance opportunities and aim to create value by leveraging my technical expertise in innovative projects.",
+    "about-text": "I have expertise in powerful frameworks such as Node.js and Next.js, with a strong foundation in modern software development practices. I effectively utilize DevOps tools such as containerization, CI/CD, and cloud technologies to design scalable, reliable, and high-performance systems. I’m experienced in building strong communication with teams and clients, ensuring collaboration, understanding technical requirements, and contributing value at every stage of a project. My goal is to leverage technology strategically to develop innovative and sustainable solutions.clients, contributing at every stage of the projects. I am open to freelance opportunities and aim to create value by leveraging my technical expertise in innovative projects.",
     "experiences": [
       {
         "year": "July 2023 - September 2023",
@@ -17,6 +17,13 @@
         "company": "BulutMD Software",
         "description": "Designed and developed user interfaces for web applications using Next.js and React. Collaborated closely with backend developers to integrate frontend components with Spring Boot APIs. Implemented responsive designs and optimized frontend performance. Managed CI/CD processes to accelerate deployment and ensure continuous delivery. Contributed to the development of an ERP application, enhancing its functionality and scalability.",
         "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Material-UI"]
+      }   ,
+      {
+        "year": "July 2025 - August 2025",
+        "role": "Intern",
+        "company": "Orca Business Solutions",
+        "description": "Developed a system that automatically monitors customer servers and implements specific critical scenarios (e.g., backup operations and log file size tracking). Designed and developed the project as a full-stack application. Created APIs using Node.js and Express.js for the backend, and developed the user interface with Next.js for the frontend. Used PostgreSQL as the database and established a container-based architecture with Docker to enhance the portability and manageability of the application. Managed inter-system communication with RabbitMQ and ensured high-performance data flow.",
+        "technologies": ["Node.js", "Express.js", "JavaScript", "Next.js", "Docker", "PostgreSQL", "RabbitMQ"]
       }
     ],
     "projects": [
@@ -35,11 +42,11 @@
         "githubLink": "https://github.com/ruskyvisky/Veteriner-app"
       },
       {
-        "title": "Portfolio Website",
+        "title": "Orca Watch Tower",
         "image": "/assets/projects/project-4.png",
-        "description": "A portfolio site designed to showcase my projects and skills. This project was created to build my personal brand and effectively communicate with potential employers.",
-        "technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-        "githubLink": "https://github.com/ruskyvisky/personal-portfolio-site"
+        "description": "Orca Watch Tower is a system that automatically monitors customer servers and implements specific critical scenarios (e.g., backup operations and log file size tracking). I designed and developed the project as a full-stack application. I created APIs using Node.js and Express.js for the backend, and developed the user interface with Next.js for the frontend. I used PostgreSQL as the database and established a container-based architecture with Docker to enhance the portability and manageability of the application. I managed inter-system communication with RabbitMQ and ensured high-performance data flow.",
+        "technologies": ["Node.js", "Next.js", "Tailwind CSS", "Express.js", "Docker", "PostgreSQL", "RabbitMQ"],
+        "githubLink": "https://github.com/ruskyvisky/system-monitoring-app"
       },
       {
         "title": "Netflix Clone",
